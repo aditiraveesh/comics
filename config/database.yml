@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: comics_development
+  pool: 5
+  username: postgres

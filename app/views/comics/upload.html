@@ -1,0 +1,6 @@
+<%= form_for Comic.new, :html => {:multipart => true} do |f| %>
+  <p>
+    <%= cl_image_upload_tag(:image_id) %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>
