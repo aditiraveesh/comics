@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
+ruby '1.9.3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -39,3 +40,7 @@ group :test, :development do
 end
 
 gem 'protected_attributes'
+
+group :production do
+  gem 'rails_12factor'
+end

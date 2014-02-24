@@ -5,3 +5,11 @@ development:
   database: comics_development
   pool: 5
   username: postgres
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: comics_test
+  pool: 5
+  username: postgres
