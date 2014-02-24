@@ -13,3 +13,8 @@ test:
   database: comics_test
   pool: 5
   username: postgres
+
+production:
+  username: mucpcarbnrfemj
+  database: deffh9icnlf14c
+  host: ec2-54-225-103-9.compute-1.amazonaws.com
