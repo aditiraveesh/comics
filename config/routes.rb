@@ -7,6 +7,7 @@ Comics::Application.routes.draw do
 
   # Example of regular route:
     get '/comics/upload' => 'comics#upload'
+    get '/comics/' => 'comics#index'
     post "/comics" => "comics#show"
 
   # Example of named route that can be invoked with purchase_url(id: product.id)

@@ -9,4 +9,9 @@ class ComicsController < ApplicationController
     @comic = Comic.create(:image_url => image_url)
     @comic_image_url = @comic.attributes["image_url"]
   end
+
+  def index
+    @image_urls = Comic.all.map {|c| c.attributes["image_url"]}
+  end
+
 end

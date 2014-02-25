@@ -27,6 +27,7 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'carrierwave'
 gem 'cloudinary'
+gem 'haml-rails'
 
 gem 'pg'
 
